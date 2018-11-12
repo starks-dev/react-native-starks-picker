@@ -1,0 +1,33 @@
+{
+  "name": "react-native-stark-picker",
+  "author": "stark",
+  "version": "0.0.1",
+  "description": "Picker component for React Native with a nice and smart design touch",
+  "main": "src/index.js",
+  "keywords": [
+    "reactnative",
+    "picker",
+    "react-native",
+    "react",
+    "expo"
+  ],
+  "dependencies": {
+    "jest": "^19.0.2",
+    "react": "^15.4.2",
+    "react-native": "^0.41.2"
+  },
+  "jest": {
+    "preset": "react-native",
+    "coverageDirectory": "./coverage/",
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "license": "ISC"
+}
